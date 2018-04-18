@@ -10,13 +10,7 @@ class Solution:
             return strs[0]
 
         strs.sort(key = len, reverse=True)
-        print(strs)
-
-        if len(strs)==0:
-                return ""
-        elif len(strs)==1:
-            phrase = strs[0]
-
+        
         phrase = ""
         check_phrase = strs[0]
         for j in range(1, len(strs)):
